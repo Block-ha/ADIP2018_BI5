@@ -1,15 +1,13 @@
-
-
 #include <stdio.h>
 
 int main (){
   unsigned int n;
-  int i = 1;
-  int summe = 0;
+  unsigned int i = 1;
+  unsigned int summe = 0;
 
   scanf ("%i", &n);
-  while (i <= n)
-    {
+  
+  while (i <= n){
       summe = summe+i;
       i++;
     }
