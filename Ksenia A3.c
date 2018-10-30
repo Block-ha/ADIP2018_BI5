@@ -11,17 +11,19 @@ int main(){
     if (n<=0){
         printf("Fehler. Die Zahl ist nicht positiv");
     }
-    else if(n>0 && n<2){
+    else if(n==1){
         printf("Fehler. 1 ist keine Primzahl");
     }
     else{
-        for(k=2, sqrt(n)=>k, k++){
-            if(n%k!==0){
+        for(k=2; sqrt(n)>k; k++){
+            if(n%k==0){
+              printf("%i ist eine Primzahl", n);
+                break;
                 printf("%i ist keine Primzahl", n);
                 break;
             }
-            else if(n%k==0){
-                printf("%i ist eine Primzahl", n);
+            else{
+                 printf("%i ist keine Primzahl", n);
                 break;
             }
         }
