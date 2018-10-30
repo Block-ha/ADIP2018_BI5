@@ -13,8 +13,8 @@ int main (){
   
   while (i <= n){
     q=i*i;
-    qsumme=qsumme+q;
-    summe=summe+i;
+    qsumme+=q;
+    summe+=i;
     i++;
     }
 
