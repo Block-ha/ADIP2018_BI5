@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <studib.h>
+#include <stdlib.h>
 
 int main (){
   unsigned int n;
